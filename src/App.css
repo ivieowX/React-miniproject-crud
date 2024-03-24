@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.table {
+  width: 100%;
+}
+
+.footer {
+  background-color: #343a40;
+  color: white;
+}
+
+
+@media (max-width: 768px) {
+  .table-responsive {
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+  .table th,
+  .table td {
+    white-space: nowrap;
+  }
+}
